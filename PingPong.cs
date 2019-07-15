@@ -27,22 +27,7 @@ class PingPong
                 stringArray[i]= i.ToString();
             }
             Console.Write("{0} ", stringArray[i]);
-            
-            //Console.WriteLine(string.Join("\n", stringArray));
-            // Console.WriteLine(stringArray);
-           // Console.WriteLine("[{0}]",string.Join(" ", stringArray));
         }
         Console.Write("\n");
     }
 }
-
-// using System;
-
-// class PingPong
-// {
-//     static void Main()
-//     {
-//         Console.WriteLine("Enter a number");
-//         string stringNumber = C
-//     }
-// }
