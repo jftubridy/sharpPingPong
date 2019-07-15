@@ -26,10 +26,13 @@ class PingPong
             {
                 stringArray[i]= i.ToString();
             }
-            Console.WriteLine(string.Join("\n", stringArray));
+            Console.Write("{0} ", stringArray[i]);
+            
+            //Console.WriteLine(string.Join("\n", stringArray));
             // Console.WriteLine(stringArray);
            // Console.WriteLine("[{0}]",string.Join(" ", stringArray));
         }
+        Console.Write("\n");
     }
 }
 
